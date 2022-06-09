@@ -13,7 +13,10 @@ odd_row = [(i, j) for i in odd for j in even]
 
 black_squares = even_row + odd_row
 
-
+# Authors:
+#   - Enrique Delgado (Arquitect and Developer)
+#   - Luke Ludovici (Reporter)
+#
 class Checker(TwoPlayerGame):
 
     def __init__(self, players):
