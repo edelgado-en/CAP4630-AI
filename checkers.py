@@ -1,3 +1,12 @@
+# Authors:
+#   - Enrique Delgado (Arquitect and Developer)
+#   - Luke Ludovici (Reporter)
+#
+# Assignment 1: EasyAI Checkers Game
+#
+# Date: 06/10/2022
+#
+
 # !/usr/bin/env python3
 from easyAI import TwoPlayerGame, Human_Player, AI_Player, Negamax
 from easyAI import solve_with_iterative_deepening
@@ -13,10 +22,7 @@ odd_row = [(i, j) for i in odd for j in even]
 
 black_squares = even_row + odd_row
 
-# Authors:
-#   - Enrique Delgado (Arquitect and Developer)
-#   - Luke Ludovici (Reporter)
-#
+
 class Checker(TwoPlayerGame):
 
     def __init__(self, players):
